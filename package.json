@@ -1,7 +1,7 @@
 {
-  "name": "4331-semana04",
+  "name": "Sapo",
   "version": "1.0.0",
-  "description": "This is a react project",
+  "description": "Este es mi trabajito",
   "main": "/src/index.js",
   "scripts": {
     "start": "react-scripts start"
@@ -9,7 +9,7 @@
   "keywords": [
     "react"
   ],
-  "author": "Walter",
+  "author": "Rodr",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.3.3",
@@ -17,7 +17,7 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.2",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.23.0",
+    "react-router-dom": "^6.23.1",
     "react-scripts": "^5.0.1"
   },
   "browserslist": {

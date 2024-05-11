@@ -3,6 +3,7 @@ import './style.css';
 import { createRoot } from "react-dom/client";
 import Main from "./main";
 import Aside from "./aside";
+import Message from "./message";
 import {
     createBrowserRouter,
     RouterProvider,
@@ -20,6 +21,7 @@ const router = createBrowserRouter([
                 element: <>
                     <div className="col-md-8">
                         <Main></Main>
+                        <Message/>
                     </div>
                     <div className="col-md-4">
                         <Aside></Aside>

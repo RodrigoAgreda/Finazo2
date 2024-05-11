@@ -2,6 +2,8 @@ import Carousel from 'react-bootstrap/Carousel';
 import { useNavigate } from "react-router-dom";
 import Gatos from './data/gatos.json'
 
+import './style.css';
+
 const feather = require('feather-icons');
 
 setTimeout(() => {
@@ -28,7 +30,7 @@ const Main = () => {
                         <Carousel.Caption>
                             <h3>{it.name}</h3>
                             <p>{it.description}</p>
-                            <button className="btn btn-primary" >Ver detalle</button>
+                            <button className="btn btn-primary" >Detalles!</button>
                         </Carousel.Caption>
                     </Carousel.Item>);
                 })
