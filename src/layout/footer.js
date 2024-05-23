@@ -13,7 +13,7 @@ setTimeout(() => {
 
 const Footer = () => {
     return (
-        <footer className="bg-dark text-light">
+        <footer className="text-light color-terciario">
             <Container>
                 <Navbar expand="lg" variant="dark">
                     <br/>

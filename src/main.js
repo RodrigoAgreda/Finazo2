@@ -10,8 +10,6 @@ setTimeout(() => {
     feather.replace();
 }, 1000);
 
-
-
 const Main = () => {
     const navigate = useNavigate();
 

@@ -5,38 +5,38 @@ import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 
 const Aside = () => {
-    return <aside className="aside-container">
+    return <aside className="aside-container color-secundario">
         <Form>
             <Row className="mb-3">
                 <Form.Group as={Col} controlId="formGridFirstName">
-                    <Form.Label>Nombre(s)</Form.Label>
+                    <Form.Label><b>Nombre(s)</b></Form.Label>
                     <Form.Control type="text" placeholder="Nombre completo" />
                 </Form.Group>
 
                 <Form.Group as={Col} controlId="formGridLastName">
-                    <Form.Label>Apellidos</Form.Label>
+                    <Form.Label><b>Apellidos</b></Form.Label>
                     <Form.Control type="text" placeholder="Apellidos completos" />
                 </Form.Group>
             </Row>
 
             <Form.Group className="mb-3" controlId="formGridAddress1">
-                <Form.Label>Dirección</Form.Label>
+                <Form.Label><b>Dirección</b></Form.Label>
                 <Form.Control placeholder="1234 Calle Av." />
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="formGridAddress2">
-                <Form.Label>Dirección 2</Form.Label>
+                <Form.Label><b>Dirección 2</b></Form.Label>
                 <Form.Control placeholder="Departamento, estudio, o piso" />
             </Form.Group>
 
             <Row className="mb-3">
                 <Form.Group as={Col} controlId="formGridCity">
-                    <Form.Label>Ciudad</Form.Label>
+                    <Form.Label><b>Ciudad</b></Form.Label>
                     <Form.Control />
                 </Form.Group>
 
                 <Form.Group as={Col} controlId="formGridState">
-                    <Form.Label>Departamento</Form.Label>
+                    <Form.Label><b>Departamento</b></Form.Label>
                     <Form.Select defaultValue="Elige...">
                         <option>Elige...</option>
                         <option>Amazonas</option>
@@ -68,7 +68,7 @@ const Aside = () => {
                 </Form.Group>
 
                 <Form.Group as={Col} controlId="formGridZip">
-                    <Form.Label>Zip</Form.Label>
+                    <Form.Label><b>Zip</b></Form.Label>
                     <Form.Control />
                 </Form.Group>
             </Row>
@@ -78,7 +78,7 @@ const Aside = () => {
             <Form.Group as={Row} className="mb-6">
                 <Col sm={{ span: 10, offset: 2 }} className="d-flex justify-content-center">
                     <Button type="submit">
-                        <i data-feather="send"></i> Enviar
+                        <i data-feather="send"></i> <b>Enviar</b>
                     </Button>
                 </Col>
             </Form.Group>

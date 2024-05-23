@@ -57,8 +57,8 @@ aside {
   
   .aside-container {
     padding: 20px;
-    background-color: #f8f9fa;
     border-radius: 10px;
+    color: white;
   }
 
   .custom-container {
@@ -85,3 +85,17 @@ aside {
     margin-right: 5px;
     vertical-align: text-bottom;
   }
+
+  .color-primario{
+    background-color: #F6F3F6;
+  }
+
+.color-secundario{
+    background-color: #BDAABA;
+  }
+
+.color-terciario{
+    background-color: #2c272a;
+  }
+
+/*P=#F6F3F6,S=#BDAABA,T=#2c272a*/

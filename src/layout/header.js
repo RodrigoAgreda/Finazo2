@@ -13,8 +13,8 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
-        <header className="header-container">
-            <Navbar bg="dark" expand="lg">
+        <header className="header-container color-terciario">
+            <Navbar expand="lg">
                 <Container>
                     <Navbar.Brand href="/Inicio">
                         <img
